@@ -1,0 +1,327 @@
+{
+  "config": {
+    "argv": [],
+    "configFile": "C:\\Users\\raviraja.mp\\OneDrive - Perficient, Inc\\Capstone1\\automation-exercise-pw\\playwright.config.ts",
+    "rootDir": "C:/Users/raviraja.mp/OneDrive - Perficient, Inc/Capstone1/automation-exercise-pw/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/raviraja.mp/OneDrive - Perficient, Inc/Capstone1/automation-exercise-pw/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/raviraja.mp/OneDrive - Perficient, Inc/Capstone1/automation-exercise-pw/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "C:/Users/raviraja.mp/OneDrive - Perficient, Inc/Capstone1/automation-exercise-pw/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/raviraja.mp/OneDrive - Perficient, Inc/Capstone1/automation-exercise-pw/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      },
+      {
+        "outputDir": "C:/Users/raviraja.mp/OneDrive - Perficient, Inc/Capstone1/automation-exercise-pw/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/raviraja.mp/OneDrive - Perficient, Inc/Capstone1/automation-exercise-pw/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\raviraja.mp\\OneDrive - Perficient, Inc\\Capstone1\\automation-exercise-pw\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "chromium",
+        "testDir": "C:\\Users\\raviraja.mp\\OneDrive - Perficient, Inc\\Capstone1\\automation-exercise-pw\\tests",
+        "snapshotDir": "C:\\Users\\raviraja.mp\\OneDrive - Perficient, Inc\\Capstone1\\automation-exercise-pw\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "https://automationexercise.com/",
+          "headless": true,
+          "actionTimeout": 30000,
+          "navigationTimeout": 30000,
+          "launchOptions": {
+            "slowMo": 0
+          },
+          "trace": {
+            "mode": "on",
+            "sources": false,
+            "live": true
+          },
+          "screenshot": "only-on-failure",
+          "video": "retain-on-failure",
+          "ignoreHTTPSErrors": true,
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.8127.18 Safari/537.36",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\raviraja.mp\\OneDrive - Perficient, Inc\\Capstone1\\automation-exercise-pw\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "firefox",
+        "testDir": "C:\\Users\\raviraja.mp\\OneDrive - Perficient, Inc\\Capstone1\\automation-exercise-pw\\tests",
+        "snapshotDir": "C:\\Users\\raviraja.mp\\OneDrive - Perficient, Inc\\Capstone1\\automation-exercise-pw\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "https://automationexercise.com/",
+          "headless": true,
+          "actionTimeout": 30000,
+          "navigationTimeout": 30000,
+          "launchOptions": {
+            "slowMo": 0
+          },
+          "trace": {
+            "mode": "on",
+            "sources": false,
+            "live": true
+          },
+          "screenshot": "only-on-failure",
+          "video": "retain-on-failure",
+          "ignoreHTTPSErrors": true,
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:159.0) Gecko/20100101 Firefox/159.0",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "firefox"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "firefox"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\raviraja.mp\\OneDrive - Perficient, Inc\\Capstone1\\automation-exercise-pw\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "webkit",
+        "testDir": "C:\\Users\\raviraja.mp\\OneDrive - Perficient, Inc\\Capstone1\\automation-exercise-pw\\tests",
+        "snapshotDir": "C:\\Users\\raviraja.mp\\OneDrive - Perficient, Inc\\Capstone1\\automation-exercise-pw\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "https://automationexercise.com/",
+          "headless": true,
+          "actionTimeout": 30000,
+          "navigationTimeout": 30000,
+          "launchOptions": {
+            "slowMo": 0
+          },
+          "trace": {
+            "mode": "on",
+            "sources": false,
+            "live": true
+          },
+          "screenshot": "only-on-failure",
+          "video": "retain-on-failure",
+          "ignoreHTTPSErrors": true,
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1792,
+            "height": 1120
+          },
+          "deviceScaleFactor": 2,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "webkit"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "reports/html",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "reports/junit.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.65.0",
+    "workers": 7,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "advanced.spec.ts",
+      "file": "advanced.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Modern testing practices @regression",
+          "file": "advanced.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC07 - Visual regression snapshot of login page @visual",
+              "ok": true,
+              "tags": [
+                "regression",
+                "visual"
+              ],
+              "tests": [
+                {
+                  "timeout": 90000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 24,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6490,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-16T12:32:03.675Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\raviraja.mp\\OneDrive - Perficient, Inc\\Capstone1\\automation-exercise-pw\\test-results\\advanced-Modern-testing-pr-e15f6-apshot-of-login-page-visual-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1e27b6f2dd5d928d283d-d8382cb8587f77f9e17e",
+              "file": "advanced.spec.ts",
+              "line": 36,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-16T12:32:02.704Z",
+    "duration": 9327.194000000018,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

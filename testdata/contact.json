@@ -1,0 +1,7 @@
+{
+  "valid": {
+    "name": "Framework Validator",
+    "subject": "Contact Us automation check",
+    "message": "Validating Contact Us form via Playwright enterprise framework."
+  }
+}

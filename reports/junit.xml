@@ -1,0 +1,11 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="9.327194000000018">
+<testsuite name="advanced.spec.ts" timestamp="2026-11-16T12:32:03.197Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.49" errors="0">
+<testcase name="Modern testing practices @regression › TC07 - Visual regression snapshot of login page @visual" classname="advanced.spec.ts" time="6.49">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\advanced-Modern-testing-pr-e15f6-apshot-of-login-page-visual-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
