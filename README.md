@@ -76,7 +76,7 @@ SLOW_MO=0
 | TC05 | `contact.spec.ts` | Contact Us + file upload |
 | TC06 | `advanced.spec.ts` | axe-core accessibility scan |
 | TC07 | `advanced.spec.ts` | Visual regression snapshot |
-| TC18 | `advanced.spec.ts` | Network interception / API mock |
+| TC08 | `advanced.spec.ts` | Network interception / API mock |
 
 ## Commands
 
@@ -117,12 +117,4 @@ npx playwright test --grep @visual --update-snapshots
 
 ## AI-assisted development note
 
-AI tooling was used to accelerate scaffolding (POM skeleton, fixture wiring, config boilerplate). Locators, wait strategy, checkout stability, consent handling, and assertion design were reviewed and tightened manually for maintainability and interview-ready explanations.
-
-## Suggested presentation talking points
-
-1. Why POM + fixtures beat raw scripts for multi-engineer teams
-2. Locator priority and why `data-qa` reduces flake
-3. How unique test-data factories avoid shared-account collisions
-4. Trace/screenshot workflow for production triage
-5. Where network mocks, a11y, and visual checks fit in a CI quality gate
+AI tooling was used to accelerate scaffolding (POM skeleton, fixture wiring, config boilerplate). Locators, wait strategy, checkout stability, consent handling, and assertion design were reviewed and tightened manually for maintainability.
